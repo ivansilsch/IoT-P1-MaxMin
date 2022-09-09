@@ -1,0 +1,2 @@
+arduino-cli compile -u -b esp32:esp32:esp32 -p /dev/ttyUSB0 &&  \
+arduino-cli monitor -p /dev/ttyUSB0 --config 115200
